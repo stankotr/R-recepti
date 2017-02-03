@@ -1,3 +1,13 @@
-site_name: My Docs
+site_name: R-recepti
 theme: material
-
+site_description: primeri R programov za pripravo in statistično obdelavo podatkov
+site_author: Stanko Trček
+pages:
+- Home: 'index.md'
+- Povezave: 'povezave.md'
+- Priprava podatkov:
+    - 'Podatkovni viri': 'etl/dataSources.md'
+    - 'Priprava podatkov': 'etl/priprava.md'
+    - 'Sumarna statistika': 'etl/sumarnaStat.md'
+- About:
+    - 'License': 'about/licence.md'
